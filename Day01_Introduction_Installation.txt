@@ -1,0 +1,36 @@
+-- git hub share link 
+https://github.com/gauravrajput89/DHPCSA
+
+-- reference syntax site 
+https://www.programiz.com/python-programming/operators
+
+-----------------------------------------------------
+
+What is programming ?
+solving problems / [automating the tasks/results] using code / set of statements/process / instructions using a machine / computer
+ 
+Types of progamming?
+----------------------
+ Procedural progamming/ Imperative -- C,assembly
+ Object oriented programming -- Java / C++
+ Functional progamming -- Haskel
+
+Python is multipurpose progamming language 
+
+--------------------
+Installation 
+--------------------
+-- Ide to use 
+https://code.visualstudio.com/download
+
+Some settings to make for an IDE
+----------------------------------
+
+-- install Python Extension Pack in Visual studio code Ide
+-- ctrl f5 -- select default profile on the right side where you see + symbol -- click command prompt
+
+-- conda installation 
+https://conda.io/projects/conda/en/latest/user-guide/install/windows.html
+https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
+
+-- select Interpreter path  
