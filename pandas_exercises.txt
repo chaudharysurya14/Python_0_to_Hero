@@ -1,0 +1,41 @@
+Load the lms_members.xlsx file to Python using pandas and perform the following operation:
+
+/* Display name of all the members */
+/* Display name of all the members whose membership_status is Permanent*/
+/* Display Name of the member , City in which he resides and date of membership expiry*/
+/* name of the member whose date_expire is greater than 01-01-2020 */
+/* name of the member who resides in PUNE */
+/* name of the member who resides in Pune and his membership_status is Permanent*/
+/* list all unique cities in the members dataframe*/
+
+---------------------------------
+
+/* update all members status to "Updated_status_value"*/
+
+ex : tips.loc[ tips["tip"] < 2, "tip"] *= 2
+import pandas as pd
+
+data = {'name': ['Somu', 'Kiku', 'Amol', 'Lini'],
+	'physics': [68, 74, 77, 78],
+	'chemistry': [84, 56, 73, 69],
+	'algebra': [78, 88, 82, 87]}
+
+	
+#create dataframe
+df_marks = pd.DataFrame(data)
+print('Original DataFrame\n------------------')
+print(df_marks)
+
+new_row = {'name':'Geo', 'physics':87, 'chemistry':92, 'algebra':97}
+#append row to the dataframe
+df_marks = df_marks.append(new_row, ignore_index=True)
+
+print('\n\nNew row added to DataFrame\n--------------------------')
+print(df_marks)
+
+/* add a new row to the existing dataframe as follows */
+
+LM099	Dhoni	CHENNAI	12-07-2018	26-09-2020	Permanent
+
+
+
