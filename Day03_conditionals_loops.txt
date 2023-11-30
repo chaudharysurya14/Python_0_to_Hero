@@ -1,0 +1,46 @@
+-------------------
+Exercise : Questions based on functions , loops, conditionals
+------------------
+# ***********************************************************
+# Problem 1 
+# ***********************************************************
+ Create a game for FIZZ BUZ and keeping playing with the user untill the user chooses to skip the game
+
+Reference code :
+	# very specific to python
+	is_inside_if_clause = 'N'
+	if num%3 == 0 :
+		print("Fizz",end = ' ' )
+		is_inside_if_clause = 'Y'
+
+	if num%5 == 0 :
+		print("Buzz")
+		is_inside_if_clause = 'Y'
+
+	if  is_inside_if_clause != 'Y':
+		print("Invalid Input")
+		
+# ***********************************************************
+# Problem 2
+# ***********************************************************
+
+Addition/Squaring/exponenation should be done as part of single function named 
+"my_calculator"
+which takes in type of operation, number1,number2 as input 
+and outputs the answer based on the operation
+
+# reference code 
+
+	first_num = int(input("Please enter First number:"))
+	second_num = int(input("Please enter Second number:"))
+	returned_value = my_addition(first_num,second_num)
+	print("The Addition of the numbers is ",returned_value)
+
+	returned_value = my_square(first_num)
+	print("The Square of the number is ",returned_value)
+
+	returned_value = my_exponenation(first_num,second_num)
+	print("The exponenation of the numbers is ",returned_value)
+
+
+*********** Solutions available in Solutions_Day03.py file ***************
