@@ -1,0 +1,3 @@
+https://docs.python.org/3/library/stdtypes.html#common-sequence-operations
+
+Refer : common_sequence_operations_demo.py file 
