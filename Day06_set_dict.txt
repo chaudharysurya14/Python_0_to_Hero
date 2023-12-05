@@ -1,0 +1,77 @@
+-- set reference links
+https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset
+    Set Types — set, frozenset
+
+https://www.programiz.com/python-programming/set#google_vignette
+https://www.programiz.com/python-programming/methods/set/issubset
+
+-- dictionary reference links
+https://docs.python.org/3/library/stdtypes.html#dict
+https://www.programiz.com/python-programming/dictionary
+
+---------------------------------------------------------------------------------------------------------
+Assignment/Exercises 
+Topics covered : Modules,Functions,Looping,Conditional constructs,Input,Output,Collections :
+---------------------------------------------------------------------------------------------------------
+1) Create a program named "my_list_store"
+which support following operations on list named "members" which is provided by the user 
+for ex: ["Pratiksha","Kevin","Sachin","Yuvraj","Sania"] is provided by the user 
+
+Operations supported by our program are :
+  1:  Display number of elements in the members list
+  2:  Add an element to the members collection like 'Sehwag' 
+  3:  Add elements to the members collection like ['David','Bret','Sanju']
+  4:  Remove a member from the collection at a given subscript
+  5:  Remove the last member from the collection 
+  6:  Display third, fourth and fifth element from the collection 
+
+Keep asking the user for the operation in this store untill he chooses to exit from the program
+
+2) Create a program named "my_dict_store" which support following operations on 
+dictionary named "capitals" which would have keys as their country and values as their capitals
+respectively from the user
+for ex: "India" : "New Delhi" ,"USA" : "Washington DC","Nepal": "Kathmandu","Ukraine" : "Kyiv"
+is provided by the user 
+
+Operations supported by our program are :
+    1: Display number of elements in the capitals collection
+    2: Add an element to the capitals collection like --> Afghanistan: Kabul
+    3: Add multiple elements to the capitals collection like -->  Albania:Tirana,Algeria:Algiers,Andorra:Andorra la Vella
+    4: Remove an element from the collection 	
+
+Keep asking the user for the operation in this store untill he chooses to exit from the program
+
+
+3)  Create a program named "my_set_store" which support following operations on two sets
+    provided by user 
+
+for ex: 
+	A = {1,2,3,4,5}
+	B = {18,19,20,21}
+is provided by the user
+
+Operations supported by our program are :
+	1: Union
+	2: Intersection 
+	3: A-B
+	4: B-A
+	5: Take a element from user and Display if that element is a member of set B 
+	6: Display number of elements in the set A
+    7: Display number of elements in the set B
+	8: Add an element taken from the user to the set A
+	9: Add multiple elements taken from the user to the set A
+	10: Remove an element taken from the user from set A
+
+4) Take a number from the user and print fibonacci sequence till that number USING Range function 
+	eg : fibonnaci sequence for 5 is 1,2,3,5 """
+5) create a function named factorial() that takes in a number and displays the factorial of that number 
+6) create a function that  take a number from the user and returns a list of  even numbers from 1 to that number      
+7) create a function that takes in a number from the user and returns a tuple of all Odd numbers from 1 to that number 
+8) create a function that takes in temperature in Celsius and returns temperature in Farenhiet
+9) create a function that takes in date of birth from the user and returns age in days of the user 
+
+
+#??) create a lambda function take a number from the user and print all prime numbers from 1 to that number 
+
+
+# **** Solutions are provided in assignment_definitions.py and assignment_invocation.py
