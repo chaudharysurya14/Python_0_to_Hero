@@ -1,0 +1,29 @@
+-- exceptions link for reference
+https://docs.python.org/3/library/exceptions.html
+
+------------------------------------------------
+Exercise : Exceptions
+-------------------------------------------------
+Create the following program named "my_exception_store" with the menu below :
+
+Welcome User , What would you like to do today ?
+    1) Create a postive numbered list 
+    Note : raise an exception if the users inserts a negative number OR user creates an empty list 
+    2) Create a negative  numbered list 
+    Note : raise an exception if the users inserts a positive number/Zero OR user creates an empty list
+    3) Create a heterogenous list 
+    Note : raise an exception if the users creates a homogenous list (all elements of same datatype)
+
+    4) Check if the element is present in the list 
+    Take the Input element that you would like to search
+    and which of the above three list that he want to search element from
+    Note : raise an exception if the element is not found in the list
+    with a message "Sorry, Element could not be found"
+        
+    5) Refresh the program to start with blank lists
+    6) Exit
+
+Handle exceptions in the script for all operations 
+and let the user continue till he chooses to exit from the program 
+
+************* Solutions provided in Solution_Day08.txt ***************
