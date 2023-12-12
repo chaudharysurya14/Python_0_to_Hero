@@ -1,0 +1,50 @@
+# **************** Refer classes_objects_demo.py for information 
+
+
+---------------------------
+Underscores usage in Python
+---------------------------
+"""
+Here is a quick summary of our 2 underscore patterns for naming conventions, which we have covered above.
+
+Single Leading Underscore _var: Naming convention indicating name is meant for internal use. A hint for programmers and not enforced by programmers.
+Double Leading Underscore __var: Triggers name mangling when used in class context. Enforced by the Python interpreter.
+
+-------------------------------------------
+Exercise 01 : Classes and objects -- try creating this in oops world
+-------------------------------------------
+Employee
+  # instance variables 
+   emp_id
+   emp_salary
+   mgr_id
+  # class variable 
+  department_name
+  
+  # instance methods
+  get_emp_salary()-> emp_salary
+  set_emp_salary(rcv_salary)-> emp_salary
+
+  # class method 
+  get_department_name() --> department_name
+  
+  # static method
+  field_expertice() --> just displays some expertise for all my employees
+  
+main:
+main
+
+1) create an object employee(100,1000,1)  
+2) do the following for the created object
+// direct access using .notation
+empid
+emp_salary
+mgr_id
+3) print the department name 
+4) display the expertise for the employees 
+5) Deleting Attributes and Objects
+
+
+*************** Solutions in Solutions_Day09.py
+
+
