@@ -1,0 +1,45 @@
+-------------------------
+Exercise on Inheritance:
+-------------------------
+Create a base class named Employee as follows:
+Employee (
+-- class variables and methods
+	organisation_name, 
+	get_organisation_name(),
+	set_organisation_name(org_name)
+
+-- instance variables and methods()
+emp_id,
+name,
+base_location,
+deployed_location,
+designation,
+salary ,
+get_employee_details() 	
+
+
+Create a subclass of Employee named Manager as follows:
+Manager(
+	
+	-- instance variables and methods()
+	managed_employees[],
+	perform_appraisal_for_an_employee(emp_id,percent_raise),
+	get_manager_details(mgr_id)
+)
+
+Write a main method that does the following:
+create 3 objects of Employee 
+create an object of Manager_class and add the above 3 employee objects created as managed employees 
+display get_manager_details()
+for an employee do perform_appraisal_for_an_employee()
+
+********* For Solution please refer Solutions_Day10.py ************
+
+
+
+Python Modules 
+------------------------------------
+1) Datetime Module
+2) https://www.programiz.com/python-programming/modules/math
+3) https://www.geeksforgeeks.org/os-module-python-examples/
+
